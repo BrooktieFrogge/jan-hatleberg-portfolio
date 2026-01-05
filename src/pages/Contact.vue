@@ -33,7 +33,6 @@
         <div class="resume-section">
           <p class="resume-contact">
             Nashville, Tennessee<br />
-            <span class="nowrap">615&nbsp;•&nbsp;497&nbsp;•&nbsp;0265</span>
           </p>
         </div>
 
@@ -166,8 +165,7 @@
         <div class="resume-section">
           <div class="resume-heading">Teaching</div>
           <p>
-            1998–Present — MNPS Visual Art Teacher, Meigs Academic Magnet Middle
-            School; Nashville, TN
+            1998–Present — MNPS Visual Art Teacher
           </p>
         </div>
       </div>
