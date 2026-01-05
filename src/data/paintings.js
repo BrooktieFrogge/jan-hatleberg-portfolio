@@ -1,0 +1,60 @@
+export const paintings = [
+  {
+    id: "p-001",
+    title: "Breaking", 
+    year: "2025",
+    medium: "Acrylic on Panel",
+    size: '16" × 12"',
+    image: "src/data/HatlebergJan_Breaking_16_X 12__Acrylic on Panel_2025.jpg",
+  },
+  {
+    id: "p-002",
+    title: "Embark", 
+    year: "2025",
+    medium: "Acrylic on Paper",
+    size: '42" × 27"',
+    image: "src/data/HatlebergJan_Embark_42_X 27__Acylic on Paper_2025.jpg",
+  },
+  {
+    id: "p-003",
+    title: "In Colorful", 
+    year: "2025",
+    medium: "Acrylic on Paper",
+    size: '42" × 30"',
+    image: "src/data/HatlebergJan_In Colorful_42_X30__Acylic on Paper_2025.jpg",
+  },
+  {
+    id: "p-003",
+    title: "Refilled Daily", 
+    year: "2025",
+    medium: "Acrylic on Paper",
+    size: '30" × 22"',
+    image: "src/data/HatlebergJan_Refilled Daily_30_X 22__Acrylic on Paper_2025.jpg",
+  },
+  {
+    id: "p-003",
+    title: "A Commonplace", 
+    year: "2025",
+    medium: "Acrylic on Canvas",
+    size: '20" × 16"',
+    image: "src/data/JanHatleberg_A Commonplace_2025_20_x16__Acylic on Canvas.jpg",
+  },
+  {
+    id: "p-003",
+    title: "Nine Roots", 
+    year: "2025",
+    medium: "Acrylic on Panel",
+    size: '24" × 18"',
+    image: "src/data/JanHatleberg_Nine Roots_2025_24_x 18__Acrylic on Panel.jpg",
+  },
+    {
+    id: "p-003",
+    title: "Sprouting", 
+    year: "2025",
+    medium: "Acrylic on Canvas",
+    size: '20" × 16"',
+    image: "src/data/JanHatleberg_Sprouting_2025_20_x 16__Acylic on Canvas.jpg",
+  },
+  
+  
+];

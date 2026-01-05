@@ -1,0 +1,147 @@
+:root {
+  --bg: #ffffff;
+  --text: #111111;
+  --muted: #8c96a0;     /* soft gray like the reference site */
+  --muted-2: #b5bec7;
+  --max: 980px;
+}
+
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  letter-spacing: 0.2px;
+}
+
+a { color: inherit; text-decoration: none; }
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  padding: 64px 24px 12px;
+  text-align: center;
+}
+
+.site-title {
+  margin: 0;
+  font-size: clamp(32px, 4vw, 56px);
+  font-weight: 300;
+  letter-spacing: 2px;
+  color: #2f3a44;
+}
+
+.nav {
+  margin-top: 14px;
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+  flex-wrap: wrap;
+}
+
+.nav-link {
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--muted-2);
+  transition: color 150ms ease;
+}
+
+.nav-link:hover { color: var(--muted); }
+.nav-link.is-active { color: #4b5560; }
+
+.content {
+  width: 100%;
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 18px 24px 48px;
+  flex: 1;
+}
+
+.hero-wrap {
+  width: 100%;
+}
+
+.hero {
+  width: 100%;
+  display: block;
+  border: 0;
+}
+
+.home-text {
+  margin-top: 18px;
+  color: var(--muted);
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+.section { padding-top: 10px; }
+
+.page-title {
+  margin: 8px 0 14px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: #2f3a44;
+}
+
+.muted {
+  color: var(--muted);
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 0.95em;
+}
+
+.grid {
+  margin-top: 18px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+@media (max-width: 720px) {
+  .grid { grid-template-columns: 1fr; }
+  .header { padding-top: 44px; }
+}
+
+.card {
+  border: 1px solid #eef1f4;
+  background: #fff;
+}
+
+.thumb {
+  width: 100%;
+  display: block;
+}
+
+.meta {
+  padding: 12px 12px 14px;
+}
+
+.work-title {
+  font-weight: 300;
+  color: #2f3a44;
+}
+
+.work-sub {
+  margin-top: 4px;
+  font-weight: 300;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.footer {
+  text-align: center;
+  padding: 22px 24px 30px;
+  color: var(--muted-2);
+  font-weight: 300;
+  font-size: 13px;
+}
