@@ -61,7 +61,7 @@ const paintings = [
     caption: "Teacher Exhibition at the Frist Art Museum 2022",
   },
   {
-    src: "public/images/HatlebergJan_Breaking_16_X 12__Acrylic on Panel_2025.jpg",
+    src: "/Users/brooktiefrogge/Documents/mom-artist-site/public/images/HatlebergJan_Breaking_16_X 12__Acrylic on Panel_2025.jpg",
     alt: "Painting Breaking, 16 x 12, Acrylic on Panel, 2025",
     caption: "Breaking, 16 x 12, Acrylic on Panel, 2025",
   },
